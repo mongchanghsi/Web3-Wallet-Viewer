@@ -1,0 +1,28 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;700&display=swap');
+@import './styles/mixin.scss';
+
+body {
+  margin: 0;
+}
+
+p,
+h3 {
+  font-family: 'Inter', sans-serif;
+}
+
+p {
+  margin: 0;
+}
+
+#App {
+  position: relative;
+  min-height: 100vh;
+  width: 100vw;
+
+  background-color: #3d4451;
+
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}

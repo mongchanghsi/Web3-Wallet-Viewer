@@ -1,0 +1,33 @@
+@import '../../styles/variables.scss';
+@import '../../styles/mixin.scss';
+
+#ConnectCard {
+  & button {
+    margin: 0;
+    background-color: $purple;
+
+    padding: 14px 28px;
+    border-radius: 5px;
+    transition: all 0.5s ease;
+
+    border: none;
+    color: $white;
+    font-weight: 700;
+    cursor: pointer;
+
+    &:hover {
+      transform: scale(1.05);
+      transition: all 0.5s ease;
+    }
+
+    font-size: 18px;
+
+    @include m {
+      font-size: 24px;
+    }
+
+    @include l {
+      font-size: 36px;
+    }
+  }
+}

@@ -1,0 +1,15 @@
+@import './variables.scss';
+
+// Medium devices
+@mixin m {
+  @media (min-width: #{$screen-m}) {
+    @content;
+  }
+}
+
+// Large devices
+@mixin l {
+  @media (min-width: #{$screen-l}) {
+    @content;
+  }
+}
